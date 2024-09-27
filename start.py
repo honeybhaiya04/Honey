@@ -3,3 +3,9 @@ if num % 2 == 0:
     print("number is even")
 else:
     print("number is odd")    
+
+def palindrome(st):
+    if st == st[::-1]:
+        print("palindrome")
+    else:
+        print("not palindrome")    
