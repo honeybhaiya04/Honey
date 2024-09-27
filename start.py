@@ -9,3 +9,10 @@ def palindrome(st):
         print("palindrome")
     else:
         print("not palindrome")    
+
+def square(n):
+    print(n**2)
+    
+def cube(n):
+    print(n**3)
+    
